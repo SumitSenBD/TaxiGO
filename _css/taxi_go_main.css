@@ -1,57 +1,265 @@
 @import "../_fonts/font.css";
-html {
-  height: 100%;
-}
 
 body {
-  height: 100%;
-  min-height: 35rem;
   position: relative;
   font-family: 'UbuntuRegular', serif;
   font-weight: 300;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Ubuntu Medium';
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Ubuntu Medium', serif;
   font-weight: 700;
 }
 
-video {
-  position: fixed;
+#navigation {
+  background-color: #222;
+}
+
+#navigation .navbar-toggler {
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+}
+
+#navigation .navbar-toggler:focus, #navigation .navbar-toggler:hover {
+  color: #222;
+  background-color: white;
+}
+
+#navigation .navbar-brand {
+  color: white;
+  font-size: 24px;
+  line-height: 44px;
+  font-family: 'RalewayRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.detail{
+  font-family: 'RalewayBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#navigation .navbar-brand img {
+  height: 40px;
+}
+
+#navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link {
+  padding-top: 15px;
+  color: white;
+  border-bottom: solid transparent 3px;
+}
+
+#navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link:focus, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover {
+  color: #EF4035;
+}
+
+@media (max-width: 992px) {
+  .nav-link.js-scroll-trigger.login {
+      color: #EF4035;
+      border: none;
+      width: auto;
+  }
+  header.welcome .welcome-subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #navigation {
+    height: auto;
+    padding: 30px 0;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    background-color: transparent;
+  }
+
+  #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link:focus, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
+      border-bottom: solid #EF4035 3px;
+  }
+
+  .nav-link.js-scroll-trigger.login{
+    color: #EF4035;
+    width: 130px;
+    text-align: center;
+    border: solid 1px #EF4035;
+    border-radius: 15px;
+  }
+
+  #navigation.navbar-shrink {
+    padding: 5px 0;
+    background-color: #222;
+  }
+
+  #navigation .navbar-brand {
+    font-size: 26px;
+    line-height: 50px;
+    margin-right: 60px;
+  }
+
+  #navigation .navbar-brand img {
+    height: 46px;
+  }
+
+  #navigation .navbar-collapse .navbar-nav > .nav-item {
+    margin-right: 5px;
+  }
+
+  #navigation .navbar-collapse .navbar-nav > .nav-item:last-child {
+    margin-right: 0;
+  }
+
+  #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link {
+    padding: 15px;
+  }
+
+  #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover {
+    color: #EF4035;
+    border-radius: 0;
+    background-color: white;
+  }
+}
+
+header.welcome {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background: #222 scroll;
+}
+
+hr {
+  max-width: 100px;
+  height: 2px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+hr.space {
+  border-color: #EF4035;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 1024px) {
+  header.welcome {
+    background-attachment: fixed;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  header.welcome {
+    background-attachment: scroll;
+  }
+}
+
+header.welcome .welcome-title {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  font-family: 'RalewayRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.detail{
+  font-family: 'RalewayBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header.welcome .scroll-down {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+header.welcome .scroll-down .btn {
+  font-size: 30px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  letter-spacing: normal;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header.welcome .scroll-down .btn:hover {
+  color: rgba(255, 255, 255, 0.5) !important;
+  border-color: rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+
+header.welcome .scroll-down .btn:active, header.welcome .scroll-down .btn:focus {
+  -webkit-box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5) !important;
+}
+
+@media (min-width: 992px) {
+  header.welcome {
+    height: 100vh;
+    min-height: 700px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  header.welcome .welcome-title {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  header.welcome .welcome-subtitle {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
+header.video {
+  background: #222;
+  overflow: hidden;
+}
+
+header.video .shadow {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background: black;
+}
+
+header.video .container {
+  position: relative;
+}
+
+header.video .container,
+header.video .scroll-down {
+  z-index: 999;
+}
+
+header.video video {
+  position: absolute;
   top: 50%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
+  z-index: 0;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  z-index: 0;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  body {
-    background: #002E66 url(../_img/bg-mobile-fallback.png) no-repeat scroll cover;
+@media screen and (max-device-width: 1024px) {
+  header.video {
+    background: url("../_img/bg-mobile-fallback.png") #222 no-repeat center center scroll;
   }
-  body video {
-    display: none;
-  }
-}
 
-@media only screen and (max-width: 450px) {
-  body {
-    background: url(../_img/bg-mobile-fallback.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;  }
-
-  body video {
+  header.video video {
     display: none;
   }
 }

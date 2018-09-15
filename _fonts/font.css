@@ -1,39 +1,49 @@
 @font-face {
     font-family: UbuntuBold;
-    src: url(Ubuntu-Bold.ttf);
+    src: url(Ubuntu/Ubuntu-Bold.ttf);
 }
 
 @font-face {
     font-family: UbuntuBoldItalic;
-    src: url(Ubuntu-BoldItalic.ttf);
+    src: url(Ubuntu/Ubuntu-BoldItalic.ttf);
 }
 
 @font-face {
     font-family: UbuntuItalic;
-    src: url(Ubuntu-Italic.ttf);
+    src: url(Ubuntu/Ubuntu-Italic.ttf);
 }
 
 @font-face {
     font-family: UbuntuLight;
-    src: url(Ubuntu-Light.ttf);
+    src: url(Ubuntu/Ubuntu-Light.ttf);
 }
 
 @font-face {
     font-family: UbuntuLightItalic;
-    src: url(Ubuntu-LightItalic.ttf);
+    src: url(Ubuntu/Ubuntu-LightItalic.ttf);
 }
 
 @font-face {
     font-family: UbuntuMedium;
-    src: url(Ubuntu-Medium.ttf);
+    src: url(Ubuntu/Ubuntu-Medium.ttf);
 }
 
 @font-face {
     font-family: UbuntuMediumItalic;
-    src: url(Ubuntu-MediumItalic.ttf);
+    src: url(Ubuntu/Ubuntu-MediumItalic.ttf);
 }
 
 @font-face {
     font-family: UbuntuRegular;
-    src: url(Ubuntu-Regular.ttf);
+    src: url(Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: RalewayBold;
+    src: url(Raleway/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: RalewayRegular;
+    src: url(Raleway/Raleway-Regular.ttf);
 }
