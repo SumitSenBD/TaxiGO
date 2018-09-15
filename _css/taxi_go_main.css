@@ -1,0 +1,57 @@
+@import "../_fonts/font.css";
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  min-height: 35rem;
+  position: relative;
+  font-family: 'UbuntuRegular', serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu Medium';
+  font-weight: 700;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  body {
+    background: #002E66 url(../_img/bg-mobile-fallback.png) no-repeat scroll cover;
+  }
+  body video {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    background: url(../_img/bg-mobile-fallback.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  }
+
+  body video {
+    display: none;
+  }
+}
