@@ -34,7 +34,7 @@
     <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="_css/taxi_go_main.css" rel="stylesheet">
 </head>
-<body>
+<body id="welcome-screen">
 <nav class="navbar navbar-expand-lg fixed-top" id="navigation">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#welcome-screen">
@@ -68,25 +68,31 @@
 </nav>
 <header class="welcome video">
     <div class="shadow"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="_vid/bg.mp4" type="video/mp4">
-    </video>
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-12 my-auto text-center text-white">
-                <div class="welcome-title"> <strong class="detail">S nami</strong> sa</div>
-                <div class="welcome-title">dostanete <strong class="detail">všade</strong></div>
-                <hr class="space">
-                <div class="welcome-subtitle">Rýchlo a Bezpečne</div>
+    <div id="overlay">
+        <video id="welcome-vid" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="_vid/bg.mp4" type="video/mp4">
+        </video>
+    </div>
+
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 my-auto text-center text-white">
+                    <div class="welcome-title"> <strong class="detail">S nami</strong> sa</div>
+                    <div class="welcome-title">dostanete <strong class="detail">všade</strong></div>
+                    <hr class="space">
+                    <div class="welcome-subtitle">Rýchlo a Bezpečne</div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="scroll-down">
-        <a class="btn js-scroll-trigger" href="#o_nas">
-            <i class="fa fa-angle-down fa-fw"></i>
-        </a>
-    </div>
+        <div class="scroll-down">
+            <a class="btn js-scroll-trigger" href="#o_nas">
+                <i class="fa fa-angle-down fa-fw"></i>
+            </a>
+        </div>
 </header>
+
+<div id="reach_out" style="height: 1000px">
+</div>
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
