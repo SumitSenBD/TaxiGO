@@ -1,15 +1,15 @@
-#section-navigation {
-    position: absolute;
-    top: 12%;
-    left: 8%;
-}
-
 #connect {
     position: relative;
     width: 100%;
     min-height: 100vh;
     z-index: 1;
     background-color: #e3e2e2;
+}
+
+#section-connect {
+    position: absolute;
+    top: 12%;
+    left: 8%;
 }
 
 .registration-form {
