@@ -17,7 +17,7 @@
     <link rel="apple-touch-icon" sizes="152x152" href="_img/_fav/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="_img/_fav/apple-icon-180x180.png">
 
-    <link rel="icon" type="image/png" sizes="192x192"  href="_img/_fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="_img/_fav/android-icon-192x192.png">
 
     <link rel="icon" type="image/ico" sizes="32x32" href="_img/_fav/favicon-32x32.png">
     <link rel="icon" type="image/ico" sizes="96x96" href="_img/_fav/favicon-96x96.png">
@@ -38,21 +38,22 @@
 <nav class="navbar navbar-expand-lg fixed-top" id="navigation">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#welcome-screen">
-            <img class="img-fluid" src="_img/logo.svg" alt="">
+            <img class="img-fluid" src="_img/logo.svg" alt="Logo firmy" title="Logo firmy">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-navigation" aria-controls="mobile-navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-navigation"
+                aria-controls="mobile-navigation" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars" style="font-size: 25px"></i>
         </button>
         <div class="collapse navbar-collapse" id="mobile-navigation">
             <ul class="nav navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#pridaj_sa">Pridaj sa</a>
+                    <a class="nav-link js-scroll-trigger" href="#connect">Pridaj sa</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#o_nas">O nás</a>
+                    <a class="nav-link js-scroll-trigger" href="#about">O nás</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#cennik">Cenník</a>
+                    <a class="nav-link js-scroll-trigger" href="#price">Cenník</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#kontakt">Kontakt</a>
@@ -60,39 +61,153 @@
             </ul>
             <ul class="nav navbar-nav ml-auto">
                 <li>
-                    <a class="nav-link js-scroll-trigger login" href="#prihlasit_sa">Prihlásiť sa</a>
+                    <a class="nav-link js-scroll-trigger login" href="#prihlasit-sa">Prihlásiť sa</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
 <header class="welcome video">
     <div class="shadow"></div>
-    <div id="overlay">
+    <div>
         <video id="welcome-vid" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
             <source src="_vid/bg.mp4" type="video/mp4">
         </video>
     </div>
 
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-12 my-auto text-center text-white">
-                    <div class="welcome-title"> <strong class="detail">S nami</strong> sa</div>
-                    <div class="welcome-title">dostanete <strong class="detail">všade</strong></div>
-                    <hr class="space">
-                    <div class="welcome-subtitle">Rýchlo a Bezpečne</div>
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-12 my-auto text-center text-white">
+                <div class="welcome-title"><strong class="detail">S nami</strong> sa</div>
+                <div class="welcome-title">dostanete <strong class="detail">všade</strong></div>
+                <hr class="space">
+                <div class="welcome-subtitle">Rýchlo a Bezpečne</div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-down">
+        <a class="btn js-scroll-trigger" href="#connect">
+            <i class="fa fa-angle-down fa-fw"></i>
+        </a>
+    </div>
+</header>
+
+<section id="connect">
+    <div class="container" id="section-navigation">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Sme tu pre Vás</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Pridajte sa ešte dnes</h2>
+            </div>
+        </div>
+    </div>
+    <div class="registration-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 id="registration-title">Zaregistrujte sa</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-design">
+                        <div class="line"></div>
+                        <span class="dot"><i class="fa fa-user" style="margin-top: 13px;font-size: 40px;color: #e3e2e2;"></i></span>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row form-elements" style="margin-top:20px;">
+                <div class="col-md-6 form-elements">
+                    <div class="form-group">
+                        <input type="text" name="meno" class="form-control" placeholder="MENO">
+                    </div>
+                </div>
+                <div class="col-md-6 form-elements">
+                    <div class="form-group">
+                        <input type="text" name="priezvisko" class="form-control" placeholder="PRIEZVISKO">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:20px">
+                <div class="col-md-12 form-elements">
+                    <div class="form-group">
+                        <input type="text" name="telefon" class="form-control" placeholder="TELEFON">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-12 form-elements">
+                    <div class="form-group">
+                        <input type="text" name="email" class="form-control" placeholder="EMAIL">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-design">
+                        <div class="line"></div>
+                        <p id="date">Dátum narodenia</p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row form-elements">
+                <div class="col-md-4 form-elements">
+                    <div class="form-group">
+                        <input type="text" name="den" class="form-control" placeholder="DEŇ">
+                    </div>
+                </div>
+                <div class="col-md-4 form-elements">
+                    <div class="form-group">
+                        <input type="text" name="mesiac" class="form-control" placeholder="MESIAC">
+                    </div>
+                </div>
+                <div class="col-md-4 form-elements">
+                    <div class="form-group">
+                        <input type="text" name="rok" class="form-control" placeholder="ROK">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:20px">
+                <div class="col-md-8 form-elements">
+                    <div class="form-group">
+                        <input type="text" name="mesto" class="form-control" placeholder="MESTO">
+                    </div>
+                </div>
+                <div class="col-md-4 form-elements">
+                    <div class="form-group">
+                        <input type="text" name="stat" class="form-control" placeholder="ŠTÁT">
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:40px">
+                <div class="col-md-12 form-elements">
+                    <div class="form-group">
+                        <input id="registration" type="submit" name="registrovat" class="form-control" value="Registrovať">
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12 form-elements">
+                    <div class="form-group">
+                    <p>alebo kliknite sem pre <a href="#prihlasenie">prihlásenie</a></p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="scroll-down">
-            <a class="btn js-scroll-trigger" href="#o_nas">
-                <i class="fa fa-angle-down fa-fw"></i>
-            </a>
-        </div>
-</header>
+    </div>
+    <div id="connect-banner"></div>
+</section>
 
-<div id="reach_out" style="height: 1000px">
-</div>
+<section id="about">
+
+</section>
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

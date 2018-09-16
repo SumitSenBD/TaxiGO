@@ -1,0 +1,20 @@
+.form-control {
+    width:101%;
+    height:calc(2.25rem + 15px);
+    text-align:center;
+    border-radius:0;
+}
+
+.form-control::placeholder {
+    color:#d2d2d2;
+    opacity:1;
+}
+
+.form-control:focus {
+    border: 1px solid #ced4da;
+    box-shadow:none;
+}
+
+.form-group {
+    margin:-1px;
+}

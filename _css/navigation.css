@@ -1,0 +1,98 @@
+#navigation {
+    background-color: #222;
+}
+
+#navigation .navbar-toggler {
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+#navigation .navbar-toggler:focus, #navigation .navbar-toggler:hover {
+    color: #222;
+    background-color: white;
+}
+
+#navigation .navbar-brand {
+    font-size: 24px;
+    font-family: 'RalewayRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#navigation .navbar-brand img {
+    height: 40px;
+}
+
+#navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link {
+    padding-top: 15px;
+    border-bottom: solid transparent 3px;
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .nav-link.js-scroll-trigger.login {
+        width: auto;
+        border: none;
+        color: #EF4035;
+    }
+
+    header.welcome .welcome-subtitle {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #navigation {
+        height: auto;
+        padding: 30px 0;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        background-color: transparent;
+    }
+
+    #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link:focus, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
+        border-bottom: solid #EF4035 3px;
+    }
+
+    .nav-link.js-scroll-trigger.login {
+        width: 130px;
+        text-align: center;
+        border: solid 1px #EF4035;
+        border-radius: 15px;
+        color: #EF4035;
+    }
+
+    #navigation.navbar-shrink {
+        padding: 5px 0;
+        background-color: #222;
+    }
+
+    #navigation .navbar-brand {
+        font-size: 26px;
+        line-height: 50px;
+        margin-right: 60px;
+    }
+
+    #navigation .navbar-brand img {
+        height: 46px;
+    }
+
+    #navigation .navbar-collapse .navbar-nav > .nav-item {
+        margin-right: 5px;
+    }
+
+    #navigation .navbar-collapse .navbar-nav > .nav-item:last-child {
+        margin-right: 0;
+    }
+
+    #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link {
+        padding: 15px;
+    }
+
+    #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover {
+        border-bottom: solid #EF4035 3px;
+    }
+}

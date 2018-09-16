@@ -1,0 +1,78 @@
+#section-navigation {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}
+
+#connect {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    background-color: #e3e2e2;
+}
+
+.registration-form {
+    position: absolute;
+    top: 12%;
+    right: 8%;
+    width: 450px;
+    height: 650px;
+    z-index: 100;
+    border: solid 1px black;
+    padding: 40px;
+    background-color: #e3e2e2;
+}
+
+#registration-title {
+    margin-bottom: 20px;
+}
+
+.form-design {
+    text-align: center;
+}
+
+.form-elements {
+    padding: 0;
+}
+
+.dot {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.line {
+    display: inline-block;
+    width: 20%;
+    padding-bottom: 0%;
+    margin: 8px;
+    border-top: solid 1px #c0bebe;
+}
+
+#date{
+    display: inline-block;
+}
+
+p#date{
+    color: #c0bebe;
+}
+
+#registration{
+    font-size: 1.3rem;
+    color: white;
+    background-color: #be0d0d;
+}
+
+#connect-banner {
+    background: url(../_img/connect_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+}
