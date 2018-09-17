@@ -63,11 +63,11 @@ p#date{
 #registration{
     font-size: 1.3rem;
     color: white;
-    background-color: #be0d0d;
+    background-color: #fdc539;
 }
 
 #connect-banner {
-    background: url(../_img/connect_bg.jpg);
+    background: url(../_img/bg-connect.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center, center;

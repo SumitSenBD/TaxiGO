@@ -1,3 +1,9 @@
+.bg-primary {
+    background: #fdcc52;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fdc539), to(#e3e2e2));
+    background: linear-gradient(#fdc539, #e3e2e2);
+}
+
 .form-control {
     width:101%;
     height:calc(2.25rem + 15px);

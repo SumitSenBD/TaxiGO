@@ -7,5 +7,82 @@
 }
 
 #section-about {
-    padding-top: 8%;
+    padding-top: 7%;
+}
+
+.drivers{
+    width: 75%;
+}
+
+.space-drivers{
+    border-color: #fdc539;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.drivers-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.drivers-box .drivers-box-caption {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: #fdc539;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.drivers-box .drivers-box-caption .drivers-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.drivers-box .drivers-box-caption .drivers-box-caption-content
+.drivers-box .drivers-box-caption .drivers-box-caption-content .driver-name {
+    padding: 0 15px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.drivers-box .drivers-box-caption .drivers-box-caption-content   {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.drivers-box .drivers-box-caption .drivers-box-caption-content .driver-name {
+    font-size: 18px;
+}
+
+.drivers-box:hover .drivers-box-caption {
+    opacity: 1;
+}
+
+.drivers-box:focus {
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    .drivers-box .drivers-box-caption .drivers-box-caption-content   {
+        font-size: 16px;
+    }
+    .drivers-box .drivers-box-caption .drivers-box-caption-content .driver-name {
+        font-size: 22px;
+    }
+}
+
+.text-primary {
+    color: #fdc539 !important;
 }

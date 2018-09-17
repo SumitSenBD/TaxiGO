@@ -36,7 +36,7 @@
     .nav-link.js-scroll-trigger.login {
         width: auto;
         border: none;
-        color: #EF4035;
+        color: #fdc539;
     }
 
     header.welcome .welcome-subtitle {
@@ -54,15 +54,15 @@
     }
 
     #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link:focus, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
-        border-bottom: solid #EF4035 3px;
+        border-bottom: solid #fdc539 3px;
     }
 
     .nav-link.js-scroll-trigger.login {
         width: 130px;
         text-align: center;
-        border: solid 1px #EF4035;
+        border: solid 1px #fdc539;
         border-radius: 15px;
-        color: #EF4035;
+        color: #fdc539;
     }
 
     #navigation.navbar-shrink {
@@ -93,6 +93,6 @@
     }
 
     #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:focus, #navigation .navbar-collapse .navbar-nav > .nav-item > .nav-link.active:hover {
-        border-bottom: solid #EF4035 3px;
+        border-bottom: solid #fdc539 3px;
     }
 }

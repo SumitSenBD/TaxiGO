@@ -32,7 +32,6 @@
 
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet" type="text/css">
     <link href="_css/taxi_go_main.css" rel="stylesheet">
 </head>
 <body id="welcome-screen">
@@ -73,7 +72,7 @@
     <div class="shadow"></div>
     <div>
         <video id="welcome-vid" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="_vid/bg.mp4" type="video/mp4">
+            <source src="_mp4/bg.mp4" type="video/mp4">
         </video>
     </div>
 
@@ -199,13 +198,28 @@
             <div class="row text-center">
                 <div class="col-md-12 form-elements">
                     <div class="form-group">
-                        <p>alebo kliknite sem pre <a href="#prihlasenie">prihlásenie</a></p>
+                        <p>alebo kliknite sem pre <a href="#prihlasit-sa">prihlásenie</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div id="connect-banner"></div>
+</section>
+
+<section class="application bg-primary text-center" id="application">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h1>Naša aplikácia</h1>
+                <h5>je dostupná na každej platforme!</h5>
+                <div class="badges">
+                    <a class="badge-link" target="_blank" href="https://play.google.com/store"><img src="_img/google-play-badge.svg" alt=""></a>
+                    <a class="badge-link" target="_blank" href="https://www.apple.com/ios/app-store/"><img src="_img/app-store-badge.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="about">
@@ -217,20 +231,99 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <hr class="space">
+                <hr class="space-drivers">
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="margin-bottom: 20px">
             <div class="col-lg-12">
                 <h2>Naši spoľahliví šoféri čakajú len na Vás tak neváhajte </h2>
             </div>
         </div>
     </div>
+    <div class="container-fluid p-0 drivers">
+        <div class="row no-gutters popup-gallery">
+            <div class="col-lg-4 col-sm-6">
+                <a class="drivers-box" href="#about">
+                    <img class="img-fluid" src="_img/vodici/1.jpg" alt="">
+                    <div class="drivers-box-caption">
+                        <div class="drivers-box-caption-content">
+                            <div class="driver-name">
+                                #Juraj
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="drivers-box" href="#about">
+                    <img class="img-fluid" src="_img/vodici/2.jpg" alt="">
+                    <div class="drivers-box-caption">
+                        <div class="drivers-box-caption-content">
+                            <div class="driver-name">
+                                #Zuzka
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="drivers-box" href="#about">
+                    <img class="img-fluid" src="_img/vodici/3.jpg" alt="">
+                    <div class="drivers-box-caption">
+                        <div class="drivers-box-caption-content">
+                            <div class="driver-name">
+                                #Peter
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="drivers-box" href="#about">
+                    <img class="img-fluid" src="_img/vodici/4.jpg" alt="">
+                    <div class="drivers-box-caption">
+                        <div class="drivers-box-caption-content">
+                            <div class="driver-name">
+                                #Jakub
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="drivers-box" href="#about">
+                    <img class="img-fluid" src="_img/vodici/5.jpg" alt="">
+                    <div class="drivers-box-caption">
+                        <div class="drivers-box-caption-content">
+                            <div class="driver-name">
+                                #Ondrej
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="drivers-box" href="#about">
+                    <img class="img-fluid" src="_img/vodici/6.jpg" alt="">
+                    <div class="drivers-box-caption">
+                        <div class="drivers-box-caption-content">
+                            <div class="driver-name">
+                                #Kristína
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="info">
 </section>
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-<script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 <script src="_js/taxi_go_main.js"></script>
 
 </body>
