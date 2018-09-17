@@ -24,12 +24,6 @@ hr {
     border-bottom: 1px solid white;
 }
 
-hr.space {
-    border-color: #fdc539;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
 @media (min-width: 1024px) {
     header.welcome {
         background-attachment: fixed;

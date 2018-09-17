@@ -7,6 +7,7 @@
 @import "section/about.css";
 @import "section/info.css";
 @import "section/price.css";
+@import "section/newsletter.css";
 @import "main/footer.css";
 
 @import "main/boostrap.css";
@@ -44,6 +45,42 @@ h4 {
     color:white;
 }
 
+h5{
+    color: white;
+    font-family: UbuntuRegular, serif;
+    font-weight: bold;
+}
+
 a{
     color: #ce9200;
+}
+
+p{
+    color: #969696;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: #969696;
+    display: block;
+    padding: 8px;
+}
+
+li a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+iframe{
+    border: none;
 }

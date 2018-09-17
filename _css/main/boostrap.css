@@ -7,13 +7,13 @@
 .form-control {
     width:101%;
     height:calc(2.25rem + 15px);
-    text-align:center;
     border-radius:0;
+    text-align:center;
 }
 
 .form-control::placeholder {
-    color:#d2d2d2;
     opacity:1;
+    color:#d2d2d2;
 }
 
 .form-control:focus {
@@ -23,4 +23,27 @@
 
 .form-group {
     margin:-1px;
+}
+
+.input-group > .form-control{
+    border-radius: 0;
+}
+
+.signup-form .input-group .input-group-btn .btn-primary {
+    font-size: 1rem;
+    border: 0;
+    border-radius: 0;
+    background-color: #EF4035;
+}
+
+.space-short {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-color: #fdc539;
+}
+
+hr.space-long {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-color: #fdc539;
 }

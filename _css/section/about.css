@@ -1,8 +1,8 @@
 #about {
     position: relative;
+    z-index: 1;
     width: 100%;
     min-height: 100vh;
-    z-index: 1;
     background-color: #e3e2e2;
 }
 
@@ -16,12 +16,6 @@
 
 .drivers {
     width: 75%;
-}
-
-.space-drivers {
-    border-color: #fdc539;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 .drivers-box {
