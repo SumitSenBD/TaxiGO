@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="sk">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,9 +32,11 @@
     <title>TaxiGO</title>
 
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="node_modules/animate.css/animate.min.css" rel="stylesheet">
     <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="_css/taxigo.css" rel="stylesheet">
 </head>
+
 <body id="welcome-screen">
 <nav class="navbar navbar-expand-lg fixed-top" id="navigation">
     <div class="container">
@@ -78,7 +81,7 @@
 
     <div class="container h-100">
         <div class="row h-100">
-            <div class="col-12 my-auto text-center text-white">
+            <div class="col-12 my-auto text-center text-white wow bounceIn">
                 <div class="welcome-title"><strong class="detail">S nami</strong> sa</div>
                 <div class="welcome-title">dostanete <strong class="detail">všade</strong></div>
                 <hr class="space-long">
@@ -106,7 +109,7 @@
             </div>
         </div>
     </div>
-    <div class="registration-form">
+    <div class="registration-form wow zoomIn">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -212,7 +215,7 @@
             <div class="col-md-8 mx-auto">
                 <h1>Naša aplikácia</h1>
                 <h5>je dostupná na každej platforme!</h5>
-                <div class="badges">
+                <div class="badges wow fadeIn">
                     <a class="badge-link" target="_blank" href="https://play.google.com/store"><img
                             src="_img/_svg/google-play-badge.svg" alt=""></a>
                     <a class="badge-link" target="_blank" href="https://www.apple.com/ios/app-store/"><img
@@ -241,7 +244,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid p-0 drivers">
+    <div class="container-fluid p-0 drivers wow zoomIn">
         <div class="row no-gutters popup-gallery">
             <div class="col-lg-4 col-sm-6">
                 <a class="drivers-box" href="#about">
@@ -324,13 +327,13 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4><strong class="highlight">Vzdialenosť</strong> nás neprekvapí. Či už služobné <strong
+                    <h4 class="wow bounceInRight"><strong class="highlight">Vzdialenosť</strong> nás neprekvapí. Či už služobné <strong
                             class="highlight">cesty</strong> alebo denné dochádzanie</h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>s nami sa dostane <strong class="highlight">všade</strong> a kedy kolvek</h4>
+                    <h4 class="wow bounceInLeft">s nami sa dostane <strong class="highlight">všade</strong> a kedy kolvek</h4>
                 </div>
             </div>
             <div class="row">
@@ -340,7 +343,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <a id="more-about-price" class="js-scroll-trigger" href="#price">NÁŠ CENNÍK</a>
+                    <a id="more-about-price" class="js-scroll-trigger wow bounceInRight" href="#price">NÁŠ CENNÍK</a>
                 </div>
             </div>
         </div>
@@ -359,7 +362,7 @@
                 <h3>Získajte odhad cestovného</h3>
             </div>
         </div>
-        <div class="price-calculator">
+        <div class="price-calculator wow zoomIn">
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
@@ -406,7 +409,7 @@
         <hr class="space-short">
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <div id="newletter-signup">
+                <div id="newletter-signup" class="wow bounceInLeft">
                     <form action="http://www.taxigo.com/" method="post">
                         <div class="input-group input-group-lg">
                             <input name="email" class="form-control" id="email" placeholder="E-mail"
@@ -492,6 +495,7 @@
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="node_modules/wowjs/dist/wow.min.js"></script>
 <script src="_js/taxigo.js"></script>
 
 </body>
