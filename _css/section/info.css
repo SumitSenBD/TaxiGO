@@ -1,0 +1,32 @@
+#info {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    background-image: url(../../_img/bg-info.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.highlight {
+    color: #fdc539;
+}
+
+#more-about-price {
+    color: white;
+    border: solid 1px white;
+    padding: 10px 20px 10px 20px;
+}
+
+#more-about-price:hover {
+    text-decoration: none;
+}

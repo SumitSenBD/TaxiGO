@@ -2,6 +2,10 @@
     background-color: #222;
 }
 
+.navigation-icon{
+    font-size: 25px
+}
+
 #navigation .navbar-toggler {
     padding: 15px;
     color: white;

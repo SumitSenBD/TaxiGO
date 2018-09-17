@@ -1,0 +1,65 @@
+#price {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    background-color: #e3e2e2;
+}
+
+#section-price {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}
+
+#price-map {
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    bottom: 0;
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.price-calculator {
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    width: 350px;
+    height: 280px;
+    z-index: 100;
+    border: solid 1px black;
+    background-color: #e3e2e2;
+}
+
+#calculator-title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.form-from {
+    margin-bottom: 10px
+}
+
+.form-calculate {
+    margin-top: 30px;
+}
+
+.calculator-logo {
+    color: white;
+    font-size: 4rem;
+}
+
+#calculate {
+    width: 100px;
+    float: right;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #fdc539;
+}

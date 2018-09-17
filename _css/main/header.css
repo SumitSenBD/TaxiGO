@@ -138,7 +138,7 @@ header.video video {
 
 @media screen and (max-device-width: 1024px) {
     header.video {
-        background: url("../_img/bg-mobile-fallback.png") #222 no-repeat center center scroll;
+        background: url("../../_img/bg-mobile-fallback.png") #222 no-repeat center center scroll;
     }
 
     header.video video {

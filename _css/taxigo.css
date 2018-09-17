@@ -1,14 +1,15 @@
 @import "../_fonts/font.css";
 
-@import "header.css";
-@import "navigation.css";
-@import "connect.css";
-@import "app_store_google_play.css";
-@import "about.css";
-@import "info.css";
-@import "footer.css";
+@import "main/header.css";
+@import "main/navigation.css";
+@import "section/connect.css";
+@import "section/app_store_google_play.css";
+@import "section/about.css";
+@import "section/info.css";
+@import "section/price.css";
+@import "main/footer.css";
 
-@import "boostrap.css";
+@import "main/boostrap.css";
 
 body {
     position:relative;
@@ -35,6 +36,12 @@ h3 {
     font-size:2.3rem;
     font-family:UbuntuLight, serif;
     color:#271507;
+}
+
+h4 {
+    font-size:1.8rem;
+    font-family:UbuntuLight, serif;
+    color:white;
 }
 
 a{

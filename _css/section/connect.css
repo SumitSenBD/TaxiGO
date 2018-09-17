@@ -24,6 +24,12 @@
     background-color: #e3e2e2;
 }
 
+.registration-icon {
+    margin-top: 13px;
+    font-size: 40px;
+    color: #e3e2e2;
+}
+
 #registration-title {
     margin-bottom: 20px;
 }
@@ -52,22 +58,34 @@
     border-top: solid 1px #c0bebe;
 }
 
-#date{
+.form-name, .form-phone {
+    margin-top: 20px
+}
+
+.form-city, .form-email {
+    margin-bottom: 20px;
+}
+
+.form-registration {
+    margin-top: 40px;
+}
+
+#date {
     display: inline-block;
 }
 
-p#date{
+p#date {
     color: #c0bebe;
 }
 
-#registration{
+#registration {
     font-size: 1.3rem;
     color: white;
     background-color: #fdc539;
 }
 
 #connect-banner {
-    background: url(../_img/bg-connect.jpg);
+    background: url(../../_img/bg-connect.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center, center;
