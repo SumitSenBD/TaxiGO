@@ -16,22 +16,23 @@
     position: absolute;
     top: 12%;
     right: 8%;
-    width: 450px;
-    height: 650px;
+    width: 28.125em;
+    height: 40.625em;
     z-index: 100;
     border: solid 1px black;
-    padding: 40px;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
     background-color: #e3e2e2;
 }
 
 .registration-icon {
-    margin-top: 13px;
-    font-size: 40px;
+    margin-top: 0.35em;
+    font-size: 2.5em; 
     color: #e3e2e2;
 }
 
 #registration-title {
-    margin-bottom: 20px;
+    margin-top: 1.25em;
 }
 
 .form-design {
@@ -43,8 +44,8 @@
 }
 
 .dot {
-    width: 70px;
-    height: 70px;
+    width: 4.375em; 
+    height: 4.375em;
     display: inline-block;
     border-radius: 50%;
     background-color: white;
@@ -53,21 +54,21 @@
 .line {
     width: 20%;
     padding-bottom: 0%;
-    margin: 8px;
+    margin: 0.5em; 
     display: inline-block;
     border-top: solid 1px #c0bebe;
 }
 
 .form-name, .form-phone {
-    margin-top: 20px
+    margin-top: 1.25em 
 }
 
 .form-city, .form-email {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em; 
 }
 
 .form-registration {
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 #date {
@@ -93,4 +94,29 @@ p#date {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center, center;
+}
+
+@media (max-width: 1048px) {
+	.registration-form {
+		position: relative;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: auto;
+		border: none;
+		margin: 0 auto;
+	}
+	
+    .registration-form-input{
+        width: 50%;
+    }
+
+	#registration {
+	    width: 50%;
+    	margin: 0 auto;
+	}
+
+    #connect-banner, #connect-title, #connect-subtitle{
+        display: none;
+    }
 }

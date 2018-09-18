@@ -19,7 +19,7 @@ $(document).ready(function(){
 
     $('body').scrollspy({
         target: '#navigation',
-        offset: 56
+        offset: 1000
     });
 
     var navbarCollapse = function() {

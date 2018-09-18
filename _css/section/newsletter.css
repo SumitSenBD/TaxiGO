@@ -14,9 +14,49 @@
     font-size: 1rem;
     border: 0;
     border-radius: 0;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em; 
+    padding-left: 2.5em; 
+    padding-right: 2.5em;
     background-color: #fdc539;
+}
+
+@media (max-width: 990px) {
+	.m0{
+		font-size: 1.25em;
+	}
+
+	#email {
+    	height: 2.1em;
+	}
+
+	.input-group{
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	#newletter-form {
+    	padding-top: 0.5625em;
+   		padding-bottom: 0.5625em;
+   		padding-left: 2em;
+    	padding-right: 2em;
+    }
+}
+
+@media (max-width: 770px) {
+	.m0{
+		font-size: 1em;
+	}
+
+	#email {
+		font-size: 1.25em;
+    	height: 1.5em;
+	}
+
+	#newletter-form {
+    	padding-top: 0.1875em; 
+   		padding-bottom: 0.1875em; 
+   		padding-left: 2em;
+    	padding-right: 2em;
+    }
 }

@@ -3,25 +3,27 @@
     z-index: 1;
     width: 100%;
     min-height: 100vh;
+    padding-bottom: 1.875em;
     background-color: #e3e2e2;
 }
 
 .about-motto {
-    margin-bottom: 20px
+    margin-bottom: 1.25em;
 }
 
 #section-about {
-    padding-top: 7%;
+    padding-top: 9%;
 }
 
 .drivers {
     width: 75%;
+    margin-bottom: 1.875em; 
 }
 
 .drivers-box {
     position: relative;
     display: block;
-    max-width: 650px;
+    max-width: 40.625em; 
     margin: 0 auto;
 }
 
@@ -50,18 +52,18 @@
 
 .drivers-box .drivers-box-caption .drivers-box-caption-content
 .drivers-box .drivers-box-caption .drivers-box-caption-content .driver-name {
-    padding: 0 15px;
+    padding: 0 0.9375em; 
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .drivers-box .drivers-box-caption .drivers-box-caption-content {
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .drivers-box .drivers-box-caption .drivers-box-caption-content .driver-name {
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 .drivers-box:hover .drivers-box-caption {
@@ -72,16 +74,50 @@
     outline: none;
 }
 
+.text-primary {
+    color: #fdc539 !important;
+}
+
+@media (max-width: 990px) {
+	#section-about {
+    	padding-top: 13%;
+	}
+
+	#driver-title{
+		font-size: 3.125em;
+	}
+
+	#driver-subtitle{
+		font-size: 1.875em; 
+	}
+}
+
+@media (max-width: 770px) {
+	#section-about {
+    	padding-top: 18%;
+	}
+
+	#driver-title{
+		font-size: 2.8125em; 
+	}
+
+	#driver-subtitle{
+		font-size: 1.25em; 
+	}
+}
+
+@media (max-width: 500px) {
+	#section-about {
+    	padding-top: 24%;
+	}
+}
+
 @media (min-width: 768px) {
     .drivers-box .drivers-box-caption .drivers-box-caption-content {
-        font-size: 16px;
+        font-size: 1em;
     }
 
     .drivers-box .drivers-box-caption .drivers-box-caption-content .driver-name {
-        font-size: 22px;
+        font-size: 1.375em;
     }
-}
-
-.text-primary {
-    color: #fdc539 !important;
 }

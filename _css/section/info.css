@@ -23,10 +23,44 @@
 
 #more-about-price {
     border: solid 1px white;
-    padding: 10px 20px 10px 20px;
+    padding: 0.625em 1.25em 0.625em 1.25em;
     color: white;
 }
 
 #more-about-price:hover {
     text-decoration: none;
 }
+
+@media (max-width: 1200px) {
+	#info-title{
+		font-size: 1.5625em;
+	}
+
+	#info-subtitle{
+		font-size: 1.5625em;
+	}
+}	
+
+@media (max-width: 990px) {
+	#info-title{
+		font-size: 1.25em;
+	}
+
+	#info-subtitle{
+		font-size: 1.25em;
+	}
+}	
+
+@media (max-width: 770px) {
+	#info-title{
+		font-size: 0.9375em;
+	}
+
+	#info-subtitle{
+		font-size: 0.9375em;
+	}
+
+	#more-about-price{
+		font-size: 0.8em;
+	}
+}	

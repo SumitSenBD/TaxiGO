@@ -13,25 +13,29 @@
 }
 
 #contact-title{
-    margin-top: 30px;
+    margin-top: 1.875em;
 }
 
 #contact-content{
-    margin-top: 20px;
+    margin-top: 1.25em; 
 }
 
 #contact-position {
-    width: 200px;
-    height: 200px
+    width: 12.5em; 
+    height: 12.5em 
 }
 
 #contact-text {
     color: black;
 }
 
+.description-mobile{
+    display: none;
+}
+
 .social {
     font-size: 3rem;
-    padding-left: 5px;
+    padding-right: 0.2em; 
     color: #969696;
 }
 
@@ -41,7 +45,29 @@
 
 #footer {
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0.9375em; 
     background-color: #525151;
+}
+
+#copyright{
+    padding-top: 0.5em
+}
+
+@media (max-width: 770px) {
+    .description, .devider.desktop{
+        display: none
+    }
+
+    .description-mobile{
+        display: block;
+    }
+
+    ul#footer-nav{
+        width: 17.1875em;
+        margin: 0 auto;
+    }
+
+    .social{
+        margin-bottom: 0.4em;
+    }
 }

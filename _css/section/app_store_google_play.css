@@ -1,16 +1,16 @@
 section.application {
     position: relative;
-    padding: 150px 0;
+    padding: 9.375em 0;
 }
 
 section.application h2 {
-    font-size: 50px;
+    font-size: 3.125em;
     margin-top: 0;
 }
 
 section.application .badges .badge-link {
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625em;
 }
 
 section.application .badges .badge-link:last-child {
@@ -18,7 +18,29 @@ section.application .badges .badge-link:last-child {
 }
 
 section.application .badges .badge-link img {
-    height: 60px;
+    height: 3.75em; 
+}
+
+@media (max-width: 600px) {
+	#application-title {
+		font-size: 3.125em;
+	}
+
+	.badge-link > img{
+		width: 10.625em; 
+		height: auto;
+	}
+}
+
+@media (max-width: 380px) {
+	#application-title {
+		font-size: 2.5em; 
+	}
+	
+	.badge-link > img{
+		width: 9.375em; 
+		height: auto;
+	}
 }
 
 @media (min-width: 768px) {
@@ -30,6 +52,6 @@ section.application .badges .badge-link img {
 
 @media (min-width: 768px) {
     section.application h2 {
-        font-size: 70px;
+        font-size: 4.375em;
     }
 }

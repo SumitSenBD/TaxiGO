@@ -15,6 +15,7 @@
 body {
     position:relative;
     height:100%;
+    overflow-x: hidden;
     font-family:UbuntuRegular, serif;
     font-weight:300;
 }
@@ -73,7 +74,7 @@ li {
 li a {
     color: #969696;
     display: block;
-    padding: 8px;
+    padding: 0.5em;
 }
 
 li a:hover{

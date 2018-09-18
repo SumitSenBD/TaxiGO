@@ -6,7 +6,7 @@
 
 .form-control {
     width:101%;
-    height:calc(2.25rem + 15px);
+    height:calc(2.25rem + 0.9375em);
     border-radius:0;
     text-align:center;
 }
