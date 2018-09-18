@@ -18,9 +18,9 @@ header.welcome {
 }
 
 hr {
-    max-width: 6.25em; 
-    height: 0.125em; 
-    border-top: 1px solid white; 
+    max-width: 6.25em;
+    height: 0.125em;
+    border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
 
@@ -55,10 +55,10 @@ header.welcome .scroll-down {
 }
 
 header.welcome .scroll-down .btn {
-    width: 3.125em; 
-    height: 3.125em; 
-    font-size: 1em; 
-    line-height: 3.125em; 
+    width: 3.125em;
+    height: 3.125em;
+    font-size: 1em;
+    line-height: 3.125em;
     padding: 0;
     color: white;
     letter-spacing: normal;
@@ -75,34 +75,34 @@ header.welcome .scroll-down .btn:hover {
 }
 
 header.welcome .scroll-down .btn:active, header.welcome .scroll-down .btn:focus {
-    -webkit-box-shadow: 0 0 0 0.1875em rgba(255, 255, 255, 0.5) !important; 
+    -webkit-box-shadow: 0 0 0 0.1875em rgba(255, 255, 255, 0.5) !important;
     box-shadow: 0 0 0 0.1875em rgba(255, 255, 255, 0.5) !important;
 }
 
 @media (max-width: 992px) {
     header.welcome .welcome-title {
-        font-size: 4.375em; 
+        font-size: 4.375em;
     }
 
     header.welcome .welcome-subtitle {
-        font-size: 1.875em; 
+        font-size: 1.875em;
     }
 }
 
 @media (max-width: 770px) {
     header.welcome .welcome-title {
-        font-size: 3.125em; 
+        font-size: 3.125em;
     }
 
     header.welcome .welcome-subtitle {
-        font-size: 1.5625em; 
+        font-size: 1.5625em;
     }
 }
 
 @media (min-width: 992px) {
     header.welcome {
         height: 100vh;
-        min-height: 43.75em; 
+        min-height: 43.75em;
         padding-top: 0;
         padding-bottom: 0;
     }

@@ -18,29 +18,29 @@ section.application .badges .badge-link:last-child {
 }
 
 section.application .badges .badge-link img {
-    height: 3.75em; 
+    height: 3.75em;
 }
 
 @media (max-width: 600px) {
-	#application-title {
-		font-size: 3.125em;
-	}
+    #application-title {
+        font-size: 3.125em;
+    }
 
-	.badge-link > img{
-		width: 10.625em; 
-		height: auto;
-	}
+    .badge-link > img {
+        width: 10.625em;
+        height: auto;
+    }
 }
 
 @media (max-width: 380px) {
-	#application-title {
-		font-size: 2.5em; 
-	}
-	
-	.badge-link > img{
-		width: 9.375em; 
-		height: auto;
-	}
+    #application-title {
+        font-size: 2.5em;
+    }
+
+    .badge-link > img {
+        width: 9.375em;
+        height: auto;
+    }
 }
 
 @media (min-width: 768px) {

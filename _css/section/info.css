@@ -32,35 +32,35 @@
 }
 
 @media (max-width: 1200px) {
-	#info-title{
-		font-size: 1.5625em;
-	}
+    #info-title {
+        font-size: 1.5625em;
+    }
 
-	#info-subtitle{
-		font-size: 1.5625em;
-	}
-}	
+    #info-subtitle {
+        font-size: 1.5625em;
+    }
+}
 
 @media (max-width: 990px) {
-	#info-title{
-		font-size: 1.25em;
-	}
+    #info-title {
+        font-size: 1.25em;
+    }
 
-	#info-subtitle{
-		font-size: 1.25em;
-	}
-}	
+    #info-subtitle {
+        font-size: 1.25em;
+    }
+}
 
 @media (max-width: 770px) {
-	#info-title{
-		font-size: 0.9375em;
-	}
+    #info-title {
+        font-size: 0.9375em;
+    }
 
-	#info-subtitle{
-		font-size: 0.9375em;
-	}
+    #info-subtitle {
+        font-size: 0.9375em;
+    }
 
-	#more-about-price{
-		font-size: 0.8em;
-	}
+    #more-about-price {
+        font-size: 0.8em;
+    }
 }	

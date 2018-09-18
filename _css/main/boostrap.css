@@ -5,27 +5,27 @@
 }
 
 .form-control {
-    width:101%;
-    height:calc(2.25rem + 0.9375em);
-    border-radius:0;
-    text-align:center;
+    width: 101%;
+    height: calc(2.25rem + 0.9375em);
+    border-radius: 0;
+    text-align: center;
 }
 
 .form-control::placeholder {
-    opacity:1;
-    color:#d2d2d2;
+    opacity: 1;
+    color: #d2d2d2;
 }
 
 .form-control:focus {
     border: 1px solid #ced4da;
-    box-shadow:none;
+    box-shadow: none;
 }
 
 .form-group {
-    margin:-1px;
+    margin: -1px;
 }
 
-.input-group > .form-control{
+.input-group > .form-control {
     border-radius: 0;
 }
 

@@ -12,62 +12,62 @@
     border-top: solid 1px white;
 }
 
-#contact-title{
+#contact-title {
     margin-top: 1.875em;
 }
 
-#contact-content{
-    margin-top: 1.25em; 
+#contact-content {
+    margin-top: 1.25em;
 }
 
 #contact-position {
-    width: 12.5em; 
-    height: 12.5em 
+    width: 12.5em;
+    height: 12.5em
 }
 
 #contact-text {
     color: black;
 }
 
-.description-mobile{
+.description-mobile {
     display: none;
 }
 
 .social {
     font-size: 3rem;
-    padding-right: 0.2em; 
+    padding-right: 0.2em;
     color: #969696;
 }
 
-.social:hover{
+.social:hover {
     color: black;
 }
 
 #footer {
     width: 100%;
-    padding-top: 0.9375em; 
+    padding-top: 0.9375em;
     background-color: #525151;
 }
 
-#copyright{
+#copyright {
     padding-top: 0.5em
 }
 
 @media (max-width: 770px) {
-    .description, .devider.desktop{
+    .description, .devider.desktop {
         display: none
     }
 
-    .description-mobile{
+    .description-mobile {
         display: block;
     }
 
-    ul#footer-nav{
+    ul#footer-nav {
         width: 17.1875em;
         margin: 0 auto;
     }
 
-    .social{
+    .social {
         margin-bottom: 0.4em;
     }
 }

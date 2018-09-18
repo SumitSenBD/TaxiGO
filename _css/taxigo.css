@@ -1,5 +1,4 @@
 @import "../_fonts/font.css";
-
 @import "main/header.css";
 @import "main/navigation.css";
 @import "section/connect.css";
@@ -9,54 +8,53 @@
 @import "section/price.css";
 @import "section/newsletter.css";
 @import "main/footer.css";
-
 @import "main/boostrap.css";
 
 body {
-    position:relative;
-    height:100%;
+    position: relative;
+    height: 100%;
     overflow-x: hidden;
-    font-family:UbuntuRegular, serif;
-    font-weight:300;
+    font-family: UbuntuRegular, serif;
+    font-weight: 300;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family:UbuntuRegular, serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: UbuntuRegular, serif;
 }
 
 h1 {
-    font-family:UbuntuMedium, serif;
-    font-size:3.5rem;
-    color:#000;
+    font-family: UbuntuMedium, serif;
+    font-size: 3.5rem;
+    color: #000;
 }
 
 h2 {
-    color:#686666;
+    color: #686666;
 }
 
 h3 {
-    font-size:2.3rem;
-    font-family:UbuntuLight, serif;
-    color:#271507;
+    font-size: 2.3rem;
+    font-family: UbuntuLight, serif;
+    color: #271507;
 }
 
 h4 {
-    font-size:1.8rem;
-    font-family:UbuntuLight, serif;
-    color:white;
+    font-size: 1.8rem;
+    font-family: UbuntuLight, serif;
+    color: white;
 }
 
-h5{
+h5 {
     color: white;
     font-family: UbuntuRegular, serif;
     font-weight: bold;
 }
 
-a{
+a {
     color: #ce9200;
 }
 
-p{
+p {
     color: #969696;
 }
 
@@ -77,11 +75,11 @@ li a {
     padding: 0.5em;
 }
 
-li a:hover{
+li a:hover {
     text-decoration: none;
     color: black;
 }
 
-iframe{
+iframe {
     border: none;
 }

@@ -17,13 +17,13 @@
 
 .drivers {
     width: 75%;
-    margin-bottom: 1.875em; 
+    margin-bottom: 1.875em;
 }
 
 .drivers-box {
     position: relative;
     display: block;
-    max-width: 40.625em; 
+    max-width: 40.625em;
     margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@
 
 .drivers-box .drivers-box-caption .drivers-box-caption-content
 .drivers-box .drivers-box-caption .drivers-box-caption-content .driver-name {
-    padding: 0 0.9375em; 
+    padding: 0 0.9375em;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -79,37 +79,37 @@
 }
 
 @media (max-width: 990px) {
-	#section-about {
-    	padding-top: 13%;
-	}
+    #section-about {
+        padding-top: 13%;
+    }
 
-	#driver-title{
-		font-size: 3.125em;
-	}
+    #driver-title {
+        font-size: 3.125em;
+    }
 
-	#driver-subtitle{
-		font-size: 1.875em; 
-	}
+    #driver-subtitle {
+        font-size: 1.875em;
+    }
 }
 
 @media (max-width: 770px) {
-	#section-about {
-    	padding-top: 18%;
-	}
+    #section-about {
+        padding-top: 18%;
+    }
 
-	#driver-title{
-		font-size: 2.8125em; 
-	}
+    #driver-title {
+        font-size: 2.8125em;
+    }
 
-	#driver-subtitle{
-		font-size: 1.25em; 
-	}
+    #driver-subtitle {
+        font-size: 1.25em;
+    }
 }
 
 @media (max-width: 500px) {
-	#section-about {
-    	padding-top: 24%;
-	}
+    #section-about {
+        padding-top: 24%;
+    }
 }
 
 @media (min-width: 768px) {

@@ -27,7 +27,7 @@
 
 .registration-icon {
     margin-top: 0.35em;
-    font-size: 2.5em; 
+    font-size: 2.5em;
     color: #e3e2e2;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .dot {
-    width: 4.375em; 
+    width: 4.375em;
     height: 4.375em;
     display: inline-block;
     border-radius: 50%;
@@ -54,17 +54,17 @@
 .line {
     width: 20%;
     padding-bottom: 0%;
-    margin: 0.5em; 
+    margin: 0.5em;
     display: inline-block;
     border-top: solid 1px #c0bebe;
 }
 
 .form-name, .form-phone {
-    margin-top: 1.25em 
+    margin-top: 1.25em
 }
 
 .form-city, .form-email {
-    margin-bottom: 1.25em; 
+    margin-bottom: 1.25em;
 }
 
 .form-registration {
@@ -97,26 +97,26 @@ p#date {
 }
 
 @media (max-width: 1048px) {
-	.registration-form {
-		position: relative;
-		top: 0;
-		right: 0;
-		width: 100%;
-		height: auto;
-		border: none;
-		margin: 0 auto;
-	}
-	
-    .registration-form-input{
+    .registration-form {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        border: none;
+        margin: 0 auto;
+    }
+
+    .registration-form-input {
         width: 50%;
     }
 
-	#registration {
-	    width: 50%;
-    	margin: 0 auto;
-	}
+    #registration {
+        width: 50%;
+        margin: 0 auto;
+    }
 
-    #connect-banner, #connect-title, #connect-subtitle{
+    #connect-banner, #connect-title, #connect-subtitle {
         display: none;
     }
 }
