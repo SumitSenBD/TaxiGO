@@ -13,7 +13,6 @@
 body {
     position: relative;
     height: 100%;
-    overflow-x: hidden;
     font-family: UbuntuRegular, serif;
     font-weight: 300;
 }
@@ -82,4 +81,8 @@ li a:hover {
 
 iframe {
     border: none;
+}
+
+.eq {
+    display: none;
 }

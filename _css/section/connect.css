@@ -4,6 +4,7 @@
     width: 100%;
     min-height: 100vh;
     background-color: #e3e2e2;
+    overflow: hidden;
 }
 
 #section-connect {
