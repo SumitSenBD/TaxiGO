@@ -1,11 +1,11 @@
-# Aplikácia TaxiGO
+# TaxiGO
 
-Aplikácia je dostupná na adrese:<br />
+The application is available at:<br />
 http://app-taxigo.8u.cz/<br />
 
 
 
-# Štruktúra aplikácie
+# Application structure
 
 _css<br />
 _fonts<br />
@@ -17,7 +17,7 @@ index.html<br />
 map.html<br />
 package.json<br />
 
-## Použité technológie
+## Technologies
 
 Node.js<br />
 NPM<br />
