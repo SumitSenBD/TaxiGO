@@ -1,10 +1,4 @@
 # TaxiGO
-
-The application is available at:<br />
-http://app-taxigo.8u.cz/<br />
-
-
-
 # Application structure
 
 _css<br />
